@@ -4,13 +4,13 @@
 
     <groupId>com.mycompany</groupId>
     <artifactId>Jsf_Maven</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.1</version>
     <packaging>war</packaging>
 
     <name>Jsf_Maven</name>
 
     <properties>
-         <spring.version>3.0.5.RELEASE</spring.version>
+         <spring.version>5.0.14.RELEASE</spring.version>
         <themes.version>1.0.8</themes.version>
         <jsf.version>2.1.7</jsf.version>
         <jstl.version>1.2</jstl.version>
@@ -323,14 +323,14 @@
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-config</artifactId>
-            <version>3.0.5.RELEASE</version>
+            <version>5.1.4.RELEASE</version>
         </dependency>
 
         <!-- ######## SPRING-SECURITY-CORE ######### -->
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-core</artifactId>
-            <version>3.0.5.RELEASE</version>
+            <version>5.1.4.RELEASE</version>
             <exclusions>
                 <exclusion>
                     <artifactId>aspectjrt</artifactId>
@@ -347,7 +347,7 @@
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-web</artifactId>
-            <version>3.0.5.RELEASE</version>
+            <version>5.1.4.RELEASE</version>
         </dependency>
 
         <!-- ||| DEPENDÊNCIAS DO SPRING FRAMEWORK |||-->          
