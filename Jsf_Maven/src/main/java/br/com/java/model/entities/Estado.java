@@ -20,13 +20,13 @@ public class  Estado implements Serializable {
      
      @Id
      @GeneratedValue
-     @Column(name="idEstado", nullable=false)
+     @Column(name="IdEstado", nullable=false)
      private Integer idEstado;
      @Column(name="Nome", nullable=false, length=80)
      private String nome;
      
     @OneToMany(mappedBy = "estado", fetch = FetchType.LAZY)
-    @ForeignKey(name="Endereco_Estado")
+    @ForeignKey(name="EnderecoEstado")
     private List<Endereco> enderecos;
 
     public Estado() {
